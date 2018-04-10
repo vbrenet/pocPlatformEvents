@@ -10,8 +10,16 @@
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
-        <members>Invoice_Statement__c</members>
+        <members>*</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Flow</name>
     </types>
     <types>
         <members>streaming</members>

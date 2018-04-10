@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <componentInstances>
+            <componentName>wraper</componentName>
+        </componentInstances>
+        <name>header</name>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>main</name>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>rightsidebar</name>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>leftsidebar</name>
+    </flexiPageRegions>
+    <masterLabel>myrecpage</masterLabel>
+    <pageTemplate>flexipage:recordHomePinnedHeaderTemplateDesktop</pageTemplate>
+    <sobjectType>Case</sobjectType>
+    <type>RecordPage</type>
+</FlexiPage>

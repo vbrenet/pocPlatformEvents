@@ -1,0 +1,4 @@
+<aura:component implements="flexipage:availableForRecordHome">
+	<c:Streamer topic="InvoiceStatementUpdates" platformEvent="myEvent__e"/>
+    <c:testPushTopic />
+</aura:component>

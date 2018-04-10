@@ -1,3 +1,14 @@
-<aura:component >
+<aura:component implements="flexipage:availableForRecordHome">
     <aura:handler event="ltng:sendMessage" action="{!c.doSomething}"/>
+   
+    <div id="channel">channel place holder</div>
+    <div id="type">type place holder</div>
+    <div id="id">ID place holder</div>
+    <div id="Name">name place holder</div>
+    <div id="Description">description place holder</div>
+    <div id="Status">status place holder</div>
+    <br/>
+    <br/>
+    <div id="casecomment">case comment place holder</div>
+    
 </aura:component>
