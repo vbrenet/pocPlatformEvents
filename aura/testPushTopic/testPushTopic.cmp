@@ -1,0 +1,3 @@
+<aura:component >
+    <aura:handler event="ltng:sendMessage" action="{!c.doSomething}"/>
+</aura:component>
